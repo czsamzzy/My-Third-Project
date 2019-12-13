@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+html,body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.cover {
+  position: relative;
+  background: #2b2d34 url(./img/main_image.jpg) center;
+  background-size: cover;
+  min-height: 50rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  padding-top: 1rem; 
+
+}
+
+.cover .bg{
+  position: absolute;
+  background: linear-gradient(90deg, #d52047cc 0%, #ee3d1bcc 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0%; bottom: 0%;
+  align-self: stretch;
+}
+
+
+
+
+
+.lang-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.navbar-trans {
+  background: transparent; }
+
+
+.navbar  a{
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 0.5rem;
+  
+} 
+
+.navbar button{
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.navbar button:hover{
+  background-color: transparent;
+  border: 1px solid #d52047cc;
+}
+  
+
+
+
+.main-view-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-view-text h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.main-view-text h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.main-view-text button{
+  background: #ffffff;
+  color: #d52047cc;
+  border: none;
+}
+
+.main-view-text button:hover{
+  background: #d52047cc;
+  color: #ffffff;
+  border: none;
+}
+
+.system-mgt .btn, .system-mgt .btn:hover, .system-mgt .btn:active{
+  color: #d52047cc;
+  background: transparent;
+  border: none;
+}
+
+.system-mgt{
+  background-color: #fff ;
+  color: #000;
+  z-index: 4;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.system-mgt video{
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px #000;
+}
+.play-button img{
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 25px #000;
+}
+
+.features{
+  background: #f6f6f6;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  padding-bottom: 6rem;
+}
+
+.features-items img{
+  flex: 30%;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.f-item {
+  position: relative;
+  margin-bottom: 5rem;
+  margin-top: 1.2rem;
+}
+
+.text-block {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #000;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #000;
+  width: 60%;
+}
+
+.text-block h4{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.text-block p{
+  font-weight: 300;
+  font-size: .8rem;
+  color: rgb(49, 49, 49);
+  margin-top: 1.3rem;
+}
+
+.text-block a{
+  margin-top: .2rem;
+  margin-bottom: 1rem;
+}
+
+.text-block .btn, .text-block .btn:hover, .text-block .btn:active{
+  color: #d52047cc;
+  background: transparent;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
