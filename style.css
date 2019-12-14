@@ -76,11 +76,12 @@ html,body {
   text-shadow: 1px 1px 15px #000;
 }
 
-.main-view-text h3{
+.main-view-text p{
   font-size: 200%;
-  font-weight: 500;
+  font-weight: 300;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .main-view-text button{
@@ -128,7 +129,6 @@ html,body {
   background: #f6f6f6;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  padding: 2rem;
   padding-bottom: 6rem;
 }
 
@@ -142,8 +142,9 @@ html,body {
 
 .f-item {
   position: relative;
-  margin-bottom: 5rem;
-  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1.5rem;
 }
 
 .text-block {
@@ -158,30 +159,114 @@ html,body {
   padding-top: 1.5rem;
   border-radius: 15px;
   box-shadow: 1px 1px 10px #000;
-  width: 60%;
+  width: 50%;
 }
 
 .text-block h4{
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .text-block p{
   font-weight: 300;
-  font-size: .8rem;
-  color: rgb(49, 49, 49);
+  font-size: .7rem;
+  color: #412a2a;
   margin-top: 1.3rem;
 }
 
 .text-block a{
-  margin-top: .2rem;
   margin-bottom: 1rem;
+  font-size: .8rem;
+  font-weight: 500;
 }
 
 .text-block .btn, .text-block .btn:hover, .text-block .btn:active{
   color: #d52047cc;
   background: transparent;
   border: none;
+}
+
+.tech .back-text{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+}
+
+.tech .back-text h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(206, 206, 206, 0.678);
+}
+
+.fa-folder-open, .fa-bug, .fa-qrcode, .fa-shield-alt{
+  color: #ed4c5c;
+  font-size: 2.5rem;
+  margin-bottom: .8rem;
+  border: #000;
+}
+
+
+
+.tech-text h4{
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.tech-text p{
+  font-weight: 300;
+  font-size: .7rem;
+  color: #412a2a;
+  margin: 0 3rem;
+}
+
+.system-mgt p, .system-mgt a, .savings-text p{
+  font-size: .8rem;
+}
+.system-mgt h2,  .savings-text h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.savings-text p{
+  padding-top: 2rem;
+}
+
+
+p{
+  font-size: .8rem;
+}
+
+.fa-audible, .fa-google-play, .fa-app-store{
+  color: rgb(255, 255, 255);
+  margin-right: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.savings{
+  color: #fff;
+  background-color: #ed4c5c;
+}
+
+.padding{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.budget-area .image-area, .budget-area .text-area{
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.savings .image-area .carousel-item img{
+  border-radius: 20px;
 }
 
 
