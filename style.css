@@ -225,10 +225,10 @@ html,body {
   margin: 0 3rem;
 }
 
-.system-mgt p, .system-mgt a, .savings-text p{
+.system-mgt p, .system-mgt a, .savings-text p, .contact p, .the-end p{
   font-size: .8rem;
 }
-.system-mgt h2,  .savings-text h2{
+.system-mgt h2,  .savings-text h2, .contact h2{
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -269,7 +269,48 @@ p{
   border-radius: 20px;
 }
 
+.contact button{
+  text-transform: uppercase;
+  background-color: #ed4c5c;
+  border: none;
+}
 
+.secure-pass img{
+  max-width: 250px;
+}
+
+footer{
+  background: #f6f6f6;
+  margin-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.the-end p{
+  font-size: .8rem;
+  margin-top: 0rem;
+}
+
+.the-end h2{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+
+.fa-facebook, 
+.fa-twitter,
+.fa-google-plus-g{
+  color: #000;
+}
+
+.the-end h5{
+  font-size: .8rem;
+  color: #2b2d34;
+}
+
+.contact .text-area p{
+  padding-top: 2rem;
+}
 
 
 
