@@ -68,6 +68,9 @@ button:hover
     box-shadow: none !important;
 }
   
+.navbar-nav .dropdown-menu{
+  background: #000000d2;
+}
 
 
 
@@ -455,9 +458,7 @@ button:hover
     text-align: center;
   }
 
-  .navbar-nav .dropdown-menu{
-    background: #000000d2;
-  }
+
 
   .play-button {
     position: absolute;
