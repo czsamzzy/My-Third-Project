@@ -50,10 +50,15 @@ html,body {
   
 } 
 
-.navbar button, .navbar button:hover, .navbar button::after,.navbar button::before{
-  background-color: none;
+.navbar button,
+.navbar button:hover,
+.navbar button:focus,
+ .navbar button::after,
+ .navbar button::before{
+  background: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
+  outline:none !important;
 }
   
 
@@ -319,6 +324,17 @@ footer{
   padding-top: 2.1rem;
 }
 
+.contact form button{
+  background: #d52047cc;
+  color: #ffffff;
+  border: none;
+}
+
+.contact form button:hover{
+  background: #ffffff;
+  color: #d52047cc;
+  border: none;
+}
 
 
 footer a{
