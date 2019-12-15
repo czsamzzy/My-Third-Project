@@ -53,12 +53,12 @@ html,body {
 .navbar button,
 .navbar button:hover,
 .navbar button:focus,
- .navbar button::after,
- .navbar button::before{
+.navbar button:active,
+.navbar button::after,
+.navbar button::before{
   background: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
-  outline:none !important;
 }
   
 
