@@ -8,10 +8,10 @@ html,body {
 
 .cover {
   position: relative;
-  background: #2b2d34 url(./img/main_image.jpg) center;
+  background: #2b2d34 url(./img/main_image.jpg) no-repeat center;
   background-size: cover;
-  min-height: 50rem;
-  height: auto;
+  min-height: 50px;
+  height: 100vh;
   border-radius: 0;
   width: 100%;
   color: #fff;
@@ -24,7 +24,7 @@ html,body {
   background: linear-gradient(90deg, #d52047cc 0%, #ee3d1bcc 100%);
   background-attachment: fixed;
   background-size: cover;
-  height: 100%;
+  height: auto;
   width: 100%;
   top: 0%; bottom: 0%;
   align-self: stretch;
@@ -50,14 +50,10 @@ html,body {
   
 } 
 
-.navbar button{
-  background-color: transparent;
-  border: 1px solid #ffffff;
+.navbar button, .navbar button:hover, .navbar button::after,.navbar button::before{
+  background-color: none;
+  border: 2px solid #ffffff;
   color: #ffffff;
-}
-.navbar button:hover{
-  background-color: transparent;
-  border: 1px solid #d52047cc;
 }
   
 
@@ -129,7 +125,7 @@ html,body {
   background: #f6f6f6;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 
 .features-items img{
@@ -142,16 +138,21 @@ html,body {
 
 .f-item {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   width: 100%;
   padding: 1.5rem;
+  
 }
+
+
+
+
 
 .text-block {
   position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 20%;
+  right: 50%;
+  transform: translate(50%, 50%);
   background-color: #fff;
   color: #000;
   padding-left: 5%;
@@ -185,6 +186,9 @@ html,body {
   background: transparent;
   border: none;
 }
+.tech-text{
+  margin-bottom: 2rem;
+}
 
 .tech .back-text{
   position: absolute;
@@ -214,15 +218,12 @@ html,body {
 .tech-text h4{
   font-weight: 500;
   font-size: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .tech-text p{
   font-weight: 300;
   font-size: .7rem;
   color: #412a2a;
-  margin: 0 3rem;
 }
 
 .system-mgt p, .system-mgt a, .savings-text p, .contact p, .the-end p{
@@ -276,7 +277,7 @@ p{
 }
 
 .secure-pass img{
-  max-width: 250px;
+  max-width: 200px;
 }
 
 footer{
@@ -368,8 +369,76 @@ footer{
   
 }
 @media (max-width: 576px) {
+  .lang-icon{
+    width: 15px;
+    height: 15px;
+  }
+
+.collapse{
+    background: #000000c2;
+    z-index: 5;
+  }
+
+  .main-view-text h1{
+    font-size: 400%;
+  }
+
+  .main-view-text p{
+    font-weight: 300;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .main-view-text button{
+    font-size: .8rem;
+    font-weight: 700;
+  }
   
+  .padding{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .the-end{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .tech-text p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
