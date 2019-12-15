@@ -51,14 +51,21 @@ html,body {
 } 
 
 .navbar button,
-.navbar button:hover,
 .navbar button:focus,
 .navbar button:active,
-.navbar button::after,
-.navbar button::before{
+.navbar button:hover{
   background: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
 }
   
 
@@ -340,6 +347,16 @@ footer{
 footer a{
   color: #000000;
 }
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
 
 
 
